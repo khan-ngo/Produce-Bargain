@@ -21,7 +21,7 @@
 	<section class="container">
 		<div class="row">
 			<div class="col col-lg-md-12 col-sm-12 col-xs-4">
-				<h2>Select From Available Packages</h2>
+				<h2 style="color: black">Select From Available Packages</h2>
 				<div class="row">
 
 					<div class="row">
