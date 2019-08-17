@@ -1,6 +1,6 @@
 # Welcome to Procuce Bargain
 
-As a final Use Case project, "Produce Bargain" utilizes technology stack and skills gained while attending Boston Full Stack Java Web Developer cohort offered by [Platform by Per Scholas](https://perscholas.org/partner/platform-by-per-scholas)
+"Produce Bargain" utilizes technology stack and skills gained while attending Boston Full Stack Java Web Developer cohort offered by [Platform by Per Scholas](https://perscholas.org/partner/platform-by-per-scholas)
 
 "Procuce Bargain" aims to provide a solution to reduce food waste and increase accessibility to affordable produce to local communities, providing produce at a bargain.
 
