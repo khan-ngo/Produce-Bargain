@@ -191,15 +191,6 @@
 			<version>2.4.2</version>
 		</dependency>
 
-		<!-- Maven plugin for deploying applications to Heroku -->
-		<!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-maven-plugin -->
-		<dependency>
-			<groupId>com.heroku.sdk</groupId>
-			<artifactId>heroku-maven-plugin</artifactId>
-			<version>0.3.3</version>
-		</dependency>
-
-
 	</dependencies>
 
 </project>

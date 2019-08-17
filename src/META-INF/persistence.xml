@@ -15,6 +15,7 @@
 			<property name="eclipselink.ddl-generation"	value="create-tables" />
 			<property name="eclipselink.target-database" value="MYSQL" />
 			<property name="eclipselink.logging.level" value="OFF" />
+ 
 		</properties>
 
 	</persistence-unit>
