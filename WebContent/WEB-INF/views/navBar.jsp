@@ -8,6 +8,11 @@
 <meta charset="UTF-8">
 <%@ include file="links.jsp"%>
 
+<style>
+body {
+margin:0;
+}
+</style>
 </head>
 
 <body>

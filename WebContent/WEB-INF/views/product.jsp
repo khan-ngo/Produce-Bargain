@@ -17,6 +17,9 @@
         top: 0px;
       }
 
+p {
+color: black;
+}
     </style>
       </head>
       
