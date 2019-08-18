@@ -7,9 +7,9 @@ This app  aims to provide a solution to reduce food waste and increase accessibi
 
 ## Table of Contents
 
-* [Background Info](#background-ingo)
+* [Background Info](#background-info)
 * [Design](#user-stories-and-wireframes)
-* [Applicaiton Architecture](#applicaiton-architecture)
+* [Application Architecture](#application-architecture)
 * [Data](#data)
 * [User Experience](#user-experience)
 * [Testing](#testing)
