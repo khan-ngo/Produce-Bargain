@@ -18,6 +18,11 @@
 				<div class="col-md-6 mt-md-0 mt-3">
 
 					<div>
+
+						<c:set var="scheme" value="${pageContext.request.scheme}" />
+						<c:set var="serverPort" value="${pageContext.request.serverPort}" />
+						<c:set var="port" value=":${serverPort}" />
+
 						<c:if test="${not empty sUser.uEmail}">
 
 							<br> LoginStaus >> sUser: ${sUser.uFirstName} ${sUser.uLastName} | ${sUser.uEmail} 
@@ -30,6 +35,9 @@
 
 						<br> Last time of activity
 						<%=new Date(session.getLastAccessedTime())%>
+
+						<br> myURL: ${myUrl } <br> baseURL:
+						${scheme}://${pageContext.request.serverName}${port};
 
 					</div>
 				</div>
@@ -71,8 +79,8 @@
 		<!-- Copyright -->
 		<div
 			class="footer-copyright text-center special-color-dark font-small blue pt-4">
-			Boston Java Web Developer - UseCase Project 
-			<br>© 2019 Copyright: <a
+			Boston Java Web Developer - UseCase Project <br>© 2019
+			Copyright: <a
 				href="https://www.platformbyps.org/boston/java-developer">
 				Platform By PerScholas Boston</a>
 		</div>
