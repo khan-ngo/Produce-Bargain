@@ -36,8 +36,10 @@
 						<br> Last time of activity
 						<%=new Date(session.getLastAccessedTime())%>
 
-						<br> myURL: ${myUrl } <br> baseURL:
-						${scheme}://${pageContext.request.serverName}${port};
+<%-- 						<br> myURL: ${myUrl } 
+						<br> baseURL:
+						${scheme}://${pageContext.request.serverName}${port}; 
+--%>
 
 					</div>
 				</div>

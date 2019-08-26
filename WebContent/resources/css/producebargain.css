@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-.parallax { 
-  /* The image used */
+/* .parallax { 
+  The image used
   background-image: url("img_parallax.jpg");
 
-  /* Set a specific height */
+  Set a specific height
   height: 500px; 
 
-  /* Create the parallax scrolling effect */
+  Create the parallax scrolling effect
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 .container {
   position: relative;
   color: #ffffff;
-  z-index: 2; /* Show content above video */
+  z-index: 2; Show content above video
 }
 
 #video-background{ 
@@ -39,3 +39,4 @@
   z-index: 1;
 }
 
+ */
