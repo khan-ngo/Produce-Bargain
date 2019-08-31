@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Products</title>
 
-        	<%@ include file="links.jsp"%>
+	<%@ include file="links.jsp"%>
 
 <style>
 .message {

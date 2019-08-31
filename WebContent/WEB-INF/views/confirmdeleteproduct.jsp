@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ include file="taglib.jsp"%>
+	
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Delete Product</title>
-        	<%@ include file="links.jsp"%>
+<%@ include file="links.jsp"%>
 
 </head>
 <body>
@@ -30,24 +32,18 @@
 			
 			
 			<div class="modal-footer row">
-			
 				<div class="col-xs-4 text-left">
-				
 				<form
 					action="${pageContext.request.contextPath}/showProducts">
-					<input class="btn btn-default" type="submit"
-						value="Cancel" data-dismiss="modal" />
+					<input class="btn btn-default" type="submit" value="Cancel" data-dismiss="modal" />
 				</form>
 				</div>
 				<div class="col-xs-4 text-right">
 				<form
 					action="${pageContext.request.contextPath}/removeProduct/${id}">
-					<input class="btn btn-danger" type="submit"
-						value="Delete" data-dismiss="modal" />
+					<input class="btn btn-danger" type="submit" value="Delete" data-dismiss="modal" />
 				</form>
 				</div>
-				
-				
 			</div>
 			
 			</div>

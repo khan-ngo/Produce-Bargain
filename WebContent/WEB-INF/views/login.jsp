@@ -52,14 +52,12 @@
 				</div>
 				
 				      <div class="modal-footer d-flex justify-content-center">
-        <div class="signup-section">Not a member yet? <a href="${pageContext.request.contextPath}/register" class="text-info"> Sign Up</a>.</div>
-      </div>
-      
-
-			</div>
-			<!-- /.modal-content -->
-		</div>
-		<!-- /.modal-dialog -->
+        <div class="signup-section">Not a member yet? 
+        <a href="${pageContext.request.contextPath}/register" class="text-info"> Sign Up</a>
+</div>
+</div>
+</div>
+</div>
 
 </body>
 </html>

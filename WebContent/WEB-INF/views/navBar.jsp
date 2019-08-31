@@ -6,11 +6,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
 <%@ include file="links.jsp"%>
 
 <style>
 body {
-margin:0;
+	margin: 0;
 }
 </style>
 </head>
@@ -81,7 +82,7 @@ margin:0;
 
 	</header>
 	<script>
-	//onclick addClass to make active
+		//onclick addClass to make active
 	</script>
 
 

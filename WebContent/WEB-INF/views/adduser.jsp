@@ -2,15 +2,9 @@
 	pageEncoding="UTF-8"%>
 	<%@ include file="taglib.jsp"%>
 	
-        	<%@ include file="links.jsp"%>
+	<%@ include file="links.jsp"%>
 
 		<!-- Start of NavBar -->
-		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand d-none d-lg-block" href="${pageContext.request.contextPath}/welcome">Produce
-			Bargain</a>
-			</div>
-		</nav>
-		<!-- End of NavBar -->
 		
 	<!-- Start of Add New User  -->
 		<div class="modal-dialog">
